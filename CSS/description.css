@@ -1,0 +1,160 @@
+body
+{
+    margin: 0;
+    padding:0;
+    background-color: #E4F9FC;
+}
+
+/*TOP BAR STARTS*/
+#header
+{
+    height:10vh;
+    background: linear-gradient(to right,#4B79A1,#004e92);
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+#menu
+{
+    display:block;
+    margin:20px;
+    text-align: center;
+}
+.menu-item
+{
+    display: inline;
+    font-size:22px;
+    color:black;
+    font-weight: bold;
+    padding-left:50px;
+}
+.menu-item:hover
+{
+    color:white;
+}
+/*TOP BAR ENDS*/
+
+/*IMAGE SLIDER*/
+#slider-container
+{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#images
+{
+    position: relative;
+    width:1400vh;
+    animation: slider;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+.slide
+{
+    float: left;
+    width:200vh;
+    height:80vh;
+}
+/*ANIMATION DEFINITION*/
+@keyframes slider
+{
+    0%
+    {
+        left:0px;
+    }
+    10%
+    {
+        left:0px;
+    }
+    15%
+    {
+        left:-200vh;
+    }
+    25%
+    {
+        left: -200vh;
+    }
+    30%
+    {
+        left:-400vh;
+    }
+    40%
+    {
+        left: -400vh;
+    }
+    45%
+    {
+        left:-600vh
+    }
+    55%
+    {
+        left:-600vh;
+    }
+    60%
+    {
+        left:-800vh;
+    }
+    65%
+    {
+        left:-800vh;
+    }
+    75%
+    {
+        left:-1000vh;
+    }
+    80%
+    {
+        left:-1000vh;
+    }
+    90%
+    {
+        left:-1200vh;
+    }
+    95%
+    {
+        left:-1200vh;
+    }
+}
+/*IMAGE SLIDER ENDS*/
+
+/*TEXT SECTION*/
+#text
+{
+    height:80vh;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+h3
+{
+    font-size:36px;
+}
+p
+{
+    font-size:24px;
+    text-align: justify;
+    padding: 20px,20px;
+    
+}
+
+/*FOOTER*/
+footer
+{
+    background-color: #86fde8;
+    width:100%;
+    margin-top: 20px;
+    height: 20vh;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:50px;
+    padding-bottom: 50px; 
+    box-sizing: border-box;
+    text-align:center;
+}
+.footer-link
+{
+    width:36px;
+    color:rgb(84,84,84);
+    border:2px solid rgb(84,84,84);
+    padding:16px;
+    border-radius:50%;
+    margin-right:16px;
+}
